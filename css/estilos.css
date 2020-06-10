@@ -1,0 +1,208 @@
+#bg1 {
+  background-color: #202020;
+}
+
+.titulo {
+  color: rgb(66, 184, 66);
+  font-family: "Montserrat", sans-serif;
+  padding: 15px;
+  text-shadow: 1px 1px 6px rgb(66, 184, 66);
+  text-align: center;
+}
+
+.tituloDiseño {
+  color: rgb(66, 184, 66);
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  padding-bottom: 1vh;
+  list-style: none;
+  text-decoration: none;
+}
+
+.tituloDiseño:hover {
+  color: rgb(66, 184, 66);
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  text-shadow: 1px 1px 6px rgb(66, 184, 66);
+  padding-bottom: 1vh;
+  list-style: none;
+  text-decoration: none;
+}
+
+.lista:hover {
+  background-color: green;
+  color: floralwhite;
+}
+
+/* imagen pequeña diseña tu pc */
+.mini {
+  width: 13vh;
+  height: 13vh;
+}
+/* fin  */
+.hr1 {
+  width: 50%;
+  border-color: rgb(66, 184, 66);
+  height: 2vh;
+}
+
+.hr3 {
+  width: 50%;
+  border-color: rgb(66, 184, 66);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-lg {
+  padding-right: 1.5rem;
+}
+
+.pad {
+  padding-top: 3vh;
+}
+
+.logoFooter {
+  width: 150px;
+  height: 140px;
+}
+
+.logos {
+  width: 36px;
+  height: 36px;
+}
+
+.imgCarrito {
+  width: 25vh;
+  height: 30vh;
+}
+
+.contenedor {
+  padding: 20px;
+}
+
+.titulo2 {
+  color: rgb(30, 204, 38);
+}
+
+.footer {
+  padding-bottom: 10px;
+}
+
+.sombra {
+  text-shadow: 1px 1px black;
+}
+
+.hover:hover {
+  transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  transition-timing-function: ease-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-duration: 100ms;
+  -webkit-transition-duration: 100ms;
+  -moz-transform: scale(1.05, 1.05);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 100ms;
+}
+
+.card {
+  background-color: lightgray;
+}
+
+.menuDespl:hover {
+  background-color: green;
+  color: floralwhite;
+}
+
+.colorFondo:hover {
+  background-color: darkgreen;
+  border-radius: 3px;
+}
+
+/* Filtrar */
+.filtro {
+  padding-left: 74%;
+}
+
+.filtrado {
+  color: black;
+}
+
+.filtrado:hover {
+  text-decoration: none;
+  list-style: none;
+}
+
+.box-img {
+  width: 50%;
+  padding: 3px;
+  height: 50%;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 3px;
+}
+/* Fin Filtrar */
+
+.a {
+  text-decoration: none;
+  list-style: none;
+}
+/* Ocultar descripcion cuando la pantalla llega a ese tamaño */
+@media screen and (max-width: 600px) {
+  .ocultar-div {
+    display: none;
+  }
+  .filtro {
+    padding-left: 60%;
+  }
+}
+/* Fin Ocultar descripcion cuando la pantalla llega a ese tamaño */
+
+/* Animacion tarjetas */
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.1);
+}
+/* Fin Animacion tarjetas */
+
+/* Ajax */
+.hidden {
+  display: none;
+}
+
+#duplicado {
+  color: red;
+}
+/* Fin Ajax */
+
+/* cookie */
+#barraaceptacion {
+  display:none;
+  position:fixed;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  padding-bottom:20px;
+  width:100%;
+  text-align:center;
+  min-height:40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#fff;
+  z-index:99999;
+}
+
+/* fin cookie */
